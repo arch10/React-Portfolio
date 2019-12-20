@@ -5,13 +5,13 @@ export default class Footer extends Component {
     return (
       <footer>
       <div className="row">
-        <div className="twelve columns">
+        <div className="twelve columns footerStyle">
           <ul className="social-links">
             {
               resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
                 return(
                   <li>
-                    <a href={item.url}>
+                    <a href={item.url} target="_blank" rel="noopener noreferrer">
                     <i className={item.className} />
                     </a>
                   </li>

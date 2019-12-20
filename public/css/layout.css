@@ -345,15 +345,21 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
+.java {
   	width: 80%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
+.android {
+  	width: 70%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+}
+
+.reactjs {
+   width: 30%;
+  	-moz-animation: reactjs 2s ease;
+  	-webkit-animation: reactjs 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -425,7 +431,10 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+#portfolio-wrapper .columns { 
+   margin-bottom: 36px;
+   align-items: center;
+}
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
@@ -575,6 +584,15 @@ ul#nav li.current a { color: #F06000; }
 /* content fadeout */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
+}
+
+.lightText {
+   color: #dcdcdc;
+   font: 15px/24px 'opensans-regular', sans-serif;
+}
+
+.footerStyle {
+   margin-bottom: 72px;
 }
 
 /* ------------------------------------------------------------------ */

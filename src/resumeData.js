@@ -3,12 +3,13 @@ let resumeData = {
     "name": "Archit Raj",
     "role": "Android and Backend Developer",
     "linkedinId":"arch10",
-    "skypeid": "Your skypeid",
+    "emailid": "arch1824@gmail.com",
+    "skypeid": "arch1824@hotmail.com",
     "roleDescription": " I like dabbling in various parts of android development and like to learn about new technologies, or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/arch6",
           "className":"fa fa-linkedin"
         },
         {
@@ -22,48 +23,43 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I am currently working as a Full Stack Developer at Unisys India. I am a self taught Android Developer and have a keen interest in it. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
     "address":"India",
     "website":"https://arch10.github.io",
     "education":[
       {
-        "UniversityName":"SRM Institute of Science and Technology",
+        "UniversityName":"SRM Institute of Science and Technology, KTR",
         "specialization":"Computer Science",
         "MonthOfPassing":"May",
         "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "CGPA":"9.2",
+        "Achievements":"Event Coordinator in AARUUSH ‘15 (National level techno management fest) of event 221-B Baker Street."
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"DAV International School, Kharghar",
+        "specialization":"Science",
+        "MonthOfPassing":"April",
+        "CGPA":"92%",
+        "YearOfPassing":"2014",
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Unisys",
+        "role":"Software Developer",
+        "MonthOfLeaving":"Curent",
+        "YearOfLeaving": "",
+        "MonthOfJoining": "July",
+        "YearOfJoining": "2018",
       },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
     ],
     "skillsDescription":"Your skills here",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"Java"
       },
       {
-        "skillname":"CSS"
+        "skillname":"Android"
       },
       {
         "skillname":"Reactjs"
@@ -71,24 +67,9 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Calculator Plus",
+        "description":"A simple calculator with lots of customization and all the latest features.",
+        "imgurl":"images/portfolio/calculatorplus.png"
       }
     ],
     "testimonials":[
